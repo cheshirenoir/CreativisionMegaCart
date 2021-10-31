@@ -1,6 +1,7 @@
 # CreativisionMegaCart
 NOTE: THIS IS NOT COMPATIBLE WITH THE CREATIVISION II WITHOUT MODIFICATION!
 (See: http://www.madrigaldesign.it/forum/viewtopic.php?f=10&t=330&p=3201#p3201 )
+
 Multiple ROM Cartridge system for the VTech Creativision, AKA the Dick Smith Wizzard
 
 This is a project I’ve been working on for a while and today I’m pleased to announce the release of our open Source MultiCart system.
