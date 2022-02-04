@@ -57,6 +57,19 @@ F 3 "~" H 9350 3250 50  0001 C CNN
 	1    9350 3250
 	1    0    0    -1  
 $EndComp
+$Comp
+L WizzardCart-rescue:36Edge-EdgeConnector E1
+U 1 1 5F317394
+P 4400 6450
+F 0 "E1" H 4335 6647 50  0000 C CNN
+F 1 "36Edge" H 4335 6556 50  0000 C CNN
+F 2 "WizzardCart:36Edge" H 4335 6465 50  0000 C CNN
+F 3 "" H 4400 6450 50  0001 C CNN
+	1    4400 6450
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2600 6000 2600 5150
 Wire Wire Line
 	2600 1050 5800 1050
 Wire Wire Line
@@ -84,15 +97,27 @@ Wire Wire Line
 Wire Wire Line
 	3500 2200 5400 2200
 Wire Wire Line
+	3200 6000 3200 2300
+Wire Wire Line
 	3200 2300 5400 2300
+Wire Wire Line
+	3300 6000 3300 2400
 Wire Wire Line
 	3300 2400 5400 2400
 Wire Wire Line
+	3000 6000 3000 2500
+Wire Wire Line
 	3000 2500 5400 2500
+Wire Wire Line
+	3100 6000 3100 2600
 Wire Wire Line
 	3100 2600 5400 2600
 Wire Wire Line
+	2800 6000 2800 2700
+Wire Wire Line
 	2800 2700 5400 2700
+Wire Wire Line
+	2900 6000 2900 2800
 Wire Wire Line
 	2900 2800 5400 2800
 Wire Wire Line
@@ -385,29 +410,4 @@ Wire Wire Line
 	2300 4500 2300 3150
 Wire Wire Line
 	2300 4500 4700 4500
-$Comp
-L EdgeConnector:36Edge E1
-U 1 1 5F5C15F3
-P 4400 5550
-F 0 "E1" H 4335 5747 50  0000 C CNN
-F 1 "36Edge" H 4335 5656 50  0000 C CNN
-F 2 "CheshBits:36Edge" H 4335 5565 50  0000 C CNN
-F 3 "" H 4400 5550 50  0001 C CNN
-	1    4400 5550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3300 6000 3300 2400
-Wire Wire Line
-	3200 6000 3200 2300
-Wire Wire Line
-	3100 6000 3100 2600
-Wire Wire Line
-	3000 6000 3000 2500
-Wire Wire Line
-	2900 6000 2900 2800
-Wire Wire Line
-	2800 6000 2800 2700
-Wire Wire Line
-	2600 6000 2600 5150
 $EndSCHEMATC
